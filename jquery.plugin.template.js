@@ -10,12 +10,11 @@
 // * your jQuery plugins can be initialized with a settings object `{height: 500, width: 300}`
 // * the user-specified settings override a separate self-referencing default settings object -- a common jQuery plugin best practice
 // * you can call methods on the plugin after initialization, whenever you want
-// * enable binding of events to public methods for clear and readable code
 // * takes best practices from Twitter Bootstrap and others
 // * AMD compatible
 
 // ## Get started
-// 1. Copy https://raw.github.com/c4urself/jQuery-Plugin-Template/master/jquery.plugin.template.simple.js
+// 1. Copy [the template](https://raw.github.com/c4urself/jQuery-Plugin-Template/master/jquery.plugin.template.simple.js)
 // 2. Change the name of the plugin ('myplugin')
 // 3. Add your methods 
 // 4. Joy!
