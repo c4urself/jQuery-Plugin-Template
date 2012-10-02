@@ -14,6 +14,12 @@
 // * takes best practices from Twitter Bootstrap and others
 // * AMD compatible
 
+// ## Get started
+// 1. Copy https://raw.github.com/c4urself/jQuery-Plugin-Template/master/jquery.plugin.template.simple.js
+// 2. Change the name of the plugin ('myplugin')
+// 3. Add your methods 
+// 4. Joy!
+
 //
 // ## API
 // **Initialize your plugin**
@@ -60,8 +66,8 @@ MyPlugin.prototype = {
 
     // Have added a few conventions here. You can add attributes, private and public method here. The idea being that you only call methods not starting with underscore (it is not enforced)
     myAttribute: 'value',
-    _privateMethod: function() {},
-    publicMethod: function() {}
+    _privateMethod: function () {},
+    publicMethod: function () {}
 };
 
 
