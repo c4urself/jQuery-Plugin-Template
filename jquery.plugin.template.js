@@ -4,13 +4,20 @@
 // more useful things is the use of jQuery's data API and the calling of 
 // different methods via the plugin after initialization.
 //
-// ```javascript
-// // Initialize it
+// **Initialize it**
+//
+// ```
 // $('.myselector').myplugin({setting1: 'one', setting2: 'two'});
-// ...
-// // Call a method on it
+// ```
+//
+// **Call a method on it**
+//
+// ```
 // $('.myselector').myplugin('mymethod');
 // ```
+
+
+
 
 // Wrap everything in a define for require.js
 define(['jquery'], function($) {
