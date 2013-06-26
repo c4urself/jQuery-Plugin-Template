@@ -4,7 +4,7 @@ var MyPlugin = function (element, options) {
     this.$element = $(element);
     this.options = $.extend({}, $.fn.myplugin.defaults, options);
 
-    this.$element.bind('mouseover', function () {myplugin.publicMethod();});
+    this.$element.on('mouseover', function () {myplugin.publicMethod();});
 };
 
 
