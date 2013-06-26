@@ -58,7 +58,7 @@ var MyPlugin = function (element, options) {
     // You can extend below here by adding any events you may need to always be available.
     // Bind any events using an anonymous function to add the context of the 
     // plugin
-    this.$element.bind('mouseover', function () {myplugin.publicMethod();});
+    this.$element.on('mouseover', function () {myplugin.publicMethod();});
 };
 
 MyPlugin.prototype = {
